@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>The comment has an id: <%= requiredId %></h3>
+    <h2><%= requiredComment.text %> - <%= requiredComment.author %></h2>
+    <form action="/comments/:id/_delete"></form>
+    <button id="deleteButton" data-value= "id:<%= requiredId %>">Delete</button>
+    
+</body>
+</html>
