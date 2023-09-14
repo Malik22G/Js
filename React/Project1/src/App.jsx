@@ -1,19 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Slots from "./Slots"
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Profile from "./Profile";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-   <div>
-    <Slots val1="😋" val2="😋" val3="😋"/>
-   </div>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/profile/:characterId" element={<Profile/>} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
