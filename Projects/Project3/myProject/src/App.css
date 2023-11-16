@@ -1,0 +1,29 @@
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery > div {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.image-list {
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-list img {
+  width: auto; 
+  height: 300px;
+  margin: 5px;
+
+
+}
