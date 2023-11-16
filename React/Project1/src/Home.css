@@ -1,0 +1,56 @@
+.container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #251111;
+  border-radius: 40px;
+  font-size: 16px;
+}
+
+
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.container th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.container td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.container img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+
+}
+
+.notFound{
+  padding: 10px;
+}

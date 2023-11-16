@@ -1,12 +1,18 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+=======
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import Profile from "./Profile";
+>>>>>>> b67b01ef4937e069c0e896f0b68dfed4b0e192cd
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
+<<<<<<< HEAD
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -30,6 +36,13 @@ function App() {
       </p>
     </>
   )
+=======
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/profile/:characterId" element={<Profile/>} />
+    </Routes>
+  );
+>>>>>>> b67b01ef4937e069c0e896f0b68dfed4b0e192cd
 }
 
-export default App
+export default App;
