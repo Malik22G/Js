@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="">
-      <body>
+      <body className='p-5'>
         <Theme>
         <NavBar/>
         {children}
