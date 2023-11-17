@@ -1,7 +1,9 @@
+import '@radix-ui/themes/styles.css';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import NavBar from "./navBar";
+import { Theme } from '@radix-ui/themes';
 
 export default function RootLayout({
   children,
@@ -11,9 +13,12 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="">
       <body>
-      <NavBar/>
+        <Theme>
+        <NavBar/>
         {children}
+        </Theme>
         </body>
+
     </html>
   )
 }
