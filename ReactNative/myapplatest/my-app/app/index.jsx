@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {View, Text, SafeAreaView} from "react-native";
+import {View, Text, SafeAreaView, ScrollView} from "react-native";
 import {Stack,useRouter} from "expo-router";
 
 import {COLORS, icons, images, SIZES} from "../constants";
@@ -12,9 +12,39 @@ const Home = () =>{
      COLORS.lightWhite }}>
         <Stack.Screen
         options = {{
-            headerStyle: {backgroundColor: COLORS.lightWhite}
+            headerStyle: {backgroundColor: COLORS.lightWhite},
+            headerShadowVisible: false,
+            title : "",
+            headerLeft: ()=>(
+                <ScreenHeaderBtn iconUrl= {icons.menu} dimension = "60%" />
+            ),
+            headerRight: ()=>(
+                <ScreenHeaderBtn iconUrl={icons.profile} dimension="60%"/>
+            )
         }}
         />
+        
+        <ScrollView showsVerticalScrollIndicator={false}>
+            <View style={{
+                flex:1,
+                padding:SIZES.medium
+            }}>
+                <Welcome
+                
+                />
+                
+                <Popularjobs
+                
+                />
+
+                <Nearbyjobs
+                
+                />
+
+                
+            </View>
+        </ScrollView>
+
     </SafeAreaView>
 )}
 
