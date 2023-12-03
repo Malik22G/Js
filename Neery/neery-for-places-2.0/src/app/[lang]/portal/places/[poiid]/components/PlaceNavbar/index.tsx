@@ -10,6 +10,7 @@ import { Place } from "@/lib/api/places";
 import { useTranslation } from "@/app/[lang]/i18n";
 import { ReactNode } from "react";
 import { Plus } from "@/components/ui/icons";
+import LanguageSelector from './components/LanguageSelector';
 
 function PlaceSelectItem({ place, image }: { place: Place; image?: Image }) {
   return (
@@ -112,6 +113,7 @@ export default async function PlaceNavbar({
         }
         value={selectedPlace.poiid}
       />
+            <LanguageSelector/>
       <div role="radiogroup" className="flex flex-1 flex-col gap-[4px]">
         {pages.map((page) => (
           <_PlacePageNav key={page} page={page} poiid={poiid}>
