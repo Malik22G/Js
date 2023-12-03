@@ -1,0 +1,20 @@
+{
+  "title": "Asztalok",
+  "modify" : "Módosítás",
+  "create" : "Létrehozás",
+  "modifyGroup": "Csoport módosítása",
+  "createGroup": "Csoport létrehozása",
+  "modifyTable" : "Asztal módosítása",
+  "createTable": "Asztal létrehozása",
+  "deleteGroup": "Csoport törlése",
+  "deleteGroupInfo": "Biztosan törlöd a(z) \"<1>FallbackGroup<1>\" csoportot? Ez a művelet visszavonhatatlan.",
+  "deleteTable": "Asztal törlése",
+  "deleteTableInfo": "Do you really want to delete this group?",
+  "name": "Név",
+  "group" : "Csoport",
+  "count" : "Férőhely",
+  "delete" : "Törlés",
+  "noGroup" : "(nincs)",
+  "people" : "fő",
+  "ungroupped" : "Csoportosítatlan"
+}

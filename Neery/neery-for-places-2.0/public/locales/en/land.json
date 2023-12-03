@@ -1,0 +1,123 @@
+{
+  "info": {
+    "openNow": "Open",
+    "closedNow": "Closed",
+    "opensAt": "Opens at <1></1>",
+    "closesAt": "Closes at <1></1>",
+    "openHours": "Opening hours",
+    "email": "E-mail",
+    "call": "Call",
+    "map": "Map",
+    "web": "Webpage"
+  },
+  "menu": {
+    "title": "Menu"
+  },
+  "featuredMeals": "Featured meals",
+  "reserveButton": "Reserve a table",
+  "reserve": {
+    "header": {
+      "reservation": "Reservation",
+      "date": "Date",
+      "info": "Details"
+    },
+    "inputs": {
+      "date": {
+        "title": "Date"
+      },
+      "time": {
+        "title": "Time",
+        "timesOfDay": {
+          "morning": "Morning",
+          "afternoon": "Afternoon",
+          "night": "Night"
+        }
+      }
+    },
+    "screens": {
+      "date": {
+        "button": "Continue to details",
+        "contact": "For reservations above {{max}} guests, please contact the place via <3>phone</3> or <5>e-mail</5>.",
+        "guests": "Guests"
+      },
+      "info": {
+        "name": "Name",
+        "name_placeholder": "John Doe",
+        "email": "E-mail",
+        "email_placeholder": "johndoe@email.com",
+        "phone": "Phone number",
+        "phone_placeholder": "+36 55 555 555",
+        "allergies": "Allergies",
+        "services": "Additional services",
+        "comment": "Comment",
+        "comment_placeholder": "Anything you'd like the place to know...",
+        "accept_tos": "By pressing \"Submit reservation\" you accept our <2>Terms of Service</2> and <6>Privacy Policy</6>.",
+        "button": "Submit reservation"
+      },
+      "accepted": {
+        "alt": "Happy waiter",
+        "title": "Reservation accepted",
+        "text": "Your reservation has been accepted, and we've sent you an e-mail with the details. In case you'd like to alter your reservation, please contact the place.",
+        "button": "Back to place"
+      },
+      "pending": {
+        "alt": "Busy waitress",
+        "title": "Reservation sent",
+        "text": "Your reservation has been sent, and we'll send you an e-mail once it's accepted. In case you'd like to alter your reservation, please contact the place.",
+        "button": "Back to place"
+      },
+      "error": {
+        "alt": "Restaurant on fire",
+        "title": "Reservation failed",
+        "text": "There was an unexpected error while processing your reservation, therefore it was unsuccessful. Please go back and try again.",
+        "button": "Back to reservation"
+      },
+      "paused": {
+        "alt": "Busy waitress",
+        "title": "Place paused",
+        "text": "This place is not accepting reservations right now. Please try again later.",
+        "button": "Back to place"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "reply": "Reply from the place"
+  },
+  "review": {
+    "thankYou": "Thank you for submitting your review, there is nothing more to do here.",
+    "emailReview": {
+      "SearchEngine": "Search Engine ",
+      "Recommended": "Recommended by friend or colleague ",
+      "SocialMedia": "Social Media ",
+      "Blog": "Blog or publication ",
+      "Other": "Other :"
+    },
+    "howRate": "How would you rate the ",
+    "headers": {
+      "Food": "Food",
+      "Service": "Service",
+      "Value": "Value"
+    },
+    "tellMore": "Tell us more about your reservation, please!",
+    "howHear": "How did you hear about us?",
+    "completeMandatory": "Please complete the mandatory fields before submitting, thank you!",
+    "send": "Send",
+    "thankTaking": "Thank you for taking this quick survey!",
+    "anonymous": "Make anonymous",
+    "anonymousText": "Your identity will not be revealed!"
+  },
+  "lunchMenu": {
+    "title": "Lunch menu",
+    "days": {
+      "0": "Monday",
+      "1": "Tuesday",
+      "2": "Wednesday",
+      "3": "Thursday",
+      "4": "Friday",
+      "5": "Saturday",
+      "6": "Sunday"
+    },
+    "reserve": "Reserve"
+  }
+}

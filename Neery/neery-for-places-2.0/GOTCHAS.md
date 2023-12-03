@@ -1,0 +1,1 @@
+ * Add prod Wolt menu image resizer to next.config.js

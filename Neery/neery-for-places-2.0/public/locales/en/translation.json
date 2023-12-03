@@ -1,0 +1,23 @@
+{
+  "comingSoon": "Coming soon.",
+  "days": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "daysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+  "accessRole": {
+    "OWNER": "Owner",
+    "MANAGER": "Manager",
+    "WAITER": "Waiter"
+  },
+  "somethingWentWrong": "Something went wrong. Please try again.",
+  "featured": "Featured",
+  "expired": "Your subscription has expired and some functionality is no longer available. <1>Resubscribe in order to restore these options.</1>",
+  "fresh": "Fresh!",
+  "noOpeningTimes": "Please set up opening times and tables first."
+}

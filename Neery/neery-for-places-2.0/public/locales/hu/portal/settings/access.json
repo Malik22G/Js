@@ -1,0 +1,14 @@
+{
+  "title": "Hozzáférés",
+  "newInvitation" : " Új meghívó",
+  "modifyAccess" : "Hozzáférés módosítása",
+  "inviteUser" : "Felhasználó meghívása",
+  "user" : "Felhasználó",
+  "role" : "Szerepkör",
+  "error" : "Hiba történt. Kérjük, próbáld újra.",
+  "userNotFound" : "A felhasználó nem található.",
+  "inviteInfo" : "A meghíváshoz szükséges, hogy a meghívott személyenk már legyen NeerY fiókja. Ha még az illetőnek nincs, akkor látogasson el a places.neery.net oldalra, nyomjon a \"Kezdd el\", majd a \"Próbáld ki ingyen\" gombra, és lépjen be Google fiókjával." ,
+  "email" : "E-mail cím",
+  "modify": "Módosítás",
+  "invite" : "Meghívás"
+}

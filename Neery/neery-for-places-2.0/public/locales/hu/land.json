@@ -1,0 +1,123 @@
+{
+  "info": {
+    "openNow": "Nyitva",
+    "closedNow": "Zárva",
+    "opensAt": "<1></1>-kor nyit",
+    "closesAt": "<1></1>-kor zár",
+    "openHours": "Nyitvatartás",
+    "email": "E-mail",
+    "call": "Hívás",
+    "map": "Térkép",
+    "web": "Weboldal"
+  },
+  "menu": {
+    "title": "Étlap"
+  },
+  "featuredMeals": "Kiemelt ételek",
+  "reserveButton": "Asztalfoglalás",
+  "reserve": {
+    "header": {
+      "reservation": "Asztalfoglalás",
+      "date": "Időpont",
+      "info": "Adatok"
+    },
+    "inputs": {
+      "date": {
+        "title": "Dátum"
+      },
+      "time": {
+        "title": "Időpont",
+        "timesOfDay": {
+          "morning": "Délelőtt",
+          "afternoon": "Délután",
+          "night": "Este"
+        }
+      }
+    },
+    "screens": {
+      "date": {
+        "button": "Tovább az adatokra",
+        "contact": "{{max}} fő feletti foglalásért kérjük vegye fel a hellyel a kapcsolatot <3>telefonon</3> vagy <5>e-mailben</5>.",
+        "guests": "Vendégek"
+      },
+      "info": {
+        "name": "Név",
+        "name_placeholder": "Példa János",
+        "email": "E-mail",
+        "email_placeholder": "peldajanos@email.com",
+        "phone": "Telefonszám",
+        "phone_placeholder": "+36 55 555 5555",
+        "allergies": "Allergiák",
+        "services": "További szolgáltatások",
+        "comment": "Megjegyzés",
+        "comment_placeholder": "Bármi, amit a helynek tudnia kell...",
+        "accept_tos": "A \"Foglalás elküldése\" gomb megnyomásával elfogadod az <2>ÁSZF-et</2> és az <6>Adatvédelmi Nyilatkozatot</6>.",
+        "button": "Foglalás elküldése"
+      },
+      "accepted": {
+        "alt": "Boldog pincér",
+        "title": "Foglalás elfogadva",
+        "text": "A foglalásodat elfogadták, és küldtünk egy e-mailt a részletekről. Amennyiben módosítani szeretnéd a foglalást, kérjük vedd fel a hellyel a kapcsolatot.",
+        "button": "Vissza a főoldalra"
+      },
+      "pending": {
+        "alt": "Elfoglalt pincér",
+        "title": "Foglalás elküldve",
+        "text": "A foglalásodat elküldtük, és küldünk egy e-mailt amint a hely elfogadja azt. Amennyiben módosítani szeretnéd a foglalást, kérjük vedd fel a hellyel a kapcsolatot.",
+        "button": "Vissza a főoldalra"
+      },
+      "error": {
+        "alt": "Égő étterem",
+        "title": "Sikertelen foglalás",
+        "text": "Hiba lépett fel foglalásod közben, ezért sajnos sikertelen volt. Kérjük lépj vissza és próbáld újra.",
+        "button": "Vissza a foglaláshoz"
+      },
+      "paused": {
+        "alt": "Elfoglalt pincér",
+        "title": "A hely éppen szünetel",
+        "text": "A hely jelenleg nem fogad foglalásokat. Kérjük, próbálkozz újra később.",
+        "button": "Vissza a főoldalra"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Értékelések",
+    "reply": "Válasz a helytől"
+  },
+  "review": {
+    "thankYou": "Köszönjük, hogy visszajeleztél! Nincs további teendőd, az ablakot nyuogdtan bezárhatod!",
+    "emailReview": {
+      "SearchEngine": "Keresőmotor ",
+      "Recommended": "Ismerős ajánlotta ",
+      "SocialMedia": "Közösségi média ",
+      "Blog": "Blog vagy publikáció ",
+      "Other": "Egyéb :"
+    },
+    "howRate": "Hogyan értékelnéd a(z) ",
+    "headers": {
+      "Food": "Ételt",
+      "Service": "Kiszolgálást",
+      "Value": "Ár/Értéket"
+    },
+    "tellMore": "Kérjük, ossz meg több információt a foglalásról!",
+    "howHear": "Hogyan hallottál rólunk?",
+    "completeMandatory": "Először töltsd ki a kötelező mezőket, köszönjük!",
+    "send": "Küldés",
+    "thankTaking": "Köszönjük, hogy kitöltötted a kérdőívünket!",
+    "anonymous": "Tedd névtelenné",
+    "anonymousText": "A személyazonosságod nem derül ki!"
+  },
+  "lunchMenu": {
+    "title": "Ebéd menü",
+    "days": {
+      "0": "Hétfő",
+      "1": "Kedd",
+      "2": "Szerda",
+      "3": "Csütörtök",
+      "4": "Péntek",
+      "5": "Szombat",
+      "6": "Vasárnap"
+    },
+    "reserved": "Foglalás"
+  }
+}

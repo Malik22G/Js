@@ -1,0 +1,20 @@
+{
+  "title": "Tables",
+  "modify" : "Modify",
+  "create" : "Create",
+  "modifyGroup": "Modify group",
+  "createGroup": "Create group",
+  "modifyTable" : "Modify table",
+  "createTable" : "Create table",
+  "deleteGroup" : "Delete group",
+  "deleteGroupInfo" : "Do you really want to delete this group?",
+  "deleteTable" : "Delete table",
+  "deleteTableInfo" : "Do you really want to delete this group?",
+  "name" : "Name",
+  "group" : "Group",
+  "count" : "Count",
+  "delete" : "Delete",
+  "noGroup" : "(none)",
+  "people" : "people",
+  "ungroupped" : "Ungroupped"
+} 

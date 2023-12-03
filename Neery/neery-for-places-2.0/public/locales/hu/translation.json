@@ -1,0 +1,23 @@
+{
+  "comingSoon": "Hamarosan.",
+  "days": [
+    "vasárnap",
+    "hétfő",
+    "kedd",
+    "szerda",
+    "csütörtök",
+    "péntek",
+    "szombat"
+  ],
+  "daysShort": ["Va", "Hé", "Ke", "Sze", "Csü", "Pé", "Szo"],
+  "accessRole": {
+    "OWNER": "Tulajdonos",
+    "MANAGER": "Üzletvezető",
+    "WAITER": "Pincér"
+  },
+  "somethingWentWrong": "Valami félrement. Kérjük próbáld meg megégyszer.",
+  "featured": "Kiemelt",
+  "expired": "Lejárt a feliratkozásod és bizonyos funkciók már nem elérhetőek. <1>Iratkozz fel újra, hogy visszaállítsd ezeket a funkciókat.</1>",
+  "fresh": "Friss!",
+  "noOpeningTimes": "Kérjük, először állítsd be a nyitvatartási időt és hozz létre asztalokat."
+}

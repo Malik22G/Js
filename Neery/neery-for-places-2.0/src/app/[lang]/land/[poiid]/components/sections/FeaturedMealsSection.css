@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .fms-overhang {
+    padding: 48px;
+    margin: -24px -64px;
+    clip-path: inset(0px 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  .fms-overhang {
+    padding: 24px;
+    margin: -24px 0px;
+  }
+}

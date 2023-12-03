@@ -1,0 +1,13 @@
+{
+  "widgetDescription": "We offer 2 link options for you, they will open the same widget. The \"Long link\" is an absolute link, it will never change, copy it where it is not important, if it is shown to the user (e.g. embedding to your webpage etc), while use the \"Short Link\" if the user can see/read it. It is important, that whenever you modify the \"Short Link\" here, you have to update it also, where you have used it!",
+  "save": "Save",
+  "longLink": "Long link",
+  "handle": "Handle",
+  "shortLink": "Short link",
+  "shortLinkDisclaimer": "If you modify this, please do not forget to update it wherever you have used it!",
+  "usedHandle": "If the system changes your alias, it is because the one you have entered was taken.",
+  "modiErr": "Allowed chars are: english letters, numbers and '-' and '_'",
+  "embed": "Embed Widget",
+  "widgetMenuNoRes": "Widget Menu without Reservation Button",
+  "widgetMenu": "Widget Menu with Reservation Button"
+}
